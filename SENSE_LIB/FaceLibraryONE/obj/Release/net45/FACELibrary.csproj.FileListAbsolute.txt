@@ -1,0 +1,16 @@
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\bin\Release\net45\Sense.Lib.FACELibrary.dll
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\bin\Release\net45\Sense.Lib.FACELibrary.pdb
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.csprojAssemblyReference.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.AssemblyInfoInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.AssemblyInfo.cs
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.csproj.CoreCompileInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\Sense.Lib.FACELibrary.dll
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\Sense.Lib.FACELibrary.pdb
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.csprojAssemblyReference.cache
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.AssemblyInfoInputs.cache
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.AssemblyInfo.cs
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\FACELibrary.csproj.CoreCompileInputs.cache
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\Sense.Lib.FACELibrary.dll
+F:\Git_repo\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Release\net45\Sense.Lib.FACELibrary.pdb
+F:\Git_repo\Abel\SENSE\SENSE_LIB\bin\Release\net45\Sense.Lib.FACELibrary.dll
+F:\Git_repo\Abel\SENSE\SENSE_LIB\bin\Release\net45\Sense.Lib.FACELibrary.pdb

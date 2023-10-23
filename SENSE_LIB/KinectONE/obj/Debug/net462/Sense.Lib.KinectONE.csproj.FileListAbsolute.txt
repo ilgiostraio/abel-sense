@@ -1,0 +1,10 @@
+E:\GIT_Repository\Abel\SENSE\bin\Debug\net462\Sense.Lib.KinectONE.dll
+E:\GIT_Repository\Abel\SENSE\bin\Debug\net462\Sense.Lib.KinectONE.pdb
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.AssemblyInfoInputs.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.AssemblyInfo.cs
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.csproj.CoreCompileInputs.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.csproj.CopyComplete
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.dll
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.pdb
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.csproj.AssemblyReference.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\KinectONE\obj\Debug\net462\Sense.Lib.KinectONE.GeneratedMSBuildEditorConfig.editorconfig

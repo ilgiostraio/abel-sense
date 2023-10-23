@@ -1,0 +1,9 @@
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\bin\Release\net462\Sense.Lib.KinectONE.dll
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\bin\Release\net462\Sense.Lib.KinectONE.pdb
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\KinectONE.csprojAssemblyReference.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\KinectONE.AssemblyInfoInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\KinectONE.AssemblyInfo.cs
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\KinectONE.csproj.CoreCompileInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\KinectONE.csproj.CopyComplete
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\Sense.Lib.KinectONE.dll
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_LIB\KinectONE\obj\Release\net462\Sense.Lib.KinectONE.pdb

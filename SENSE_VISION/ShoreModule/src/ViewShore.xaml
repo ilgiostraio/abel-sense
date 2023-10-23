@@ -1,0 +1,31 @@
+﻿<Window x:Class="Sense.Vision.ShoreModule.ViewShore"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:local="clr-namespace:Sense.Vision.ShoreModule"
+            Title="Kinect View"  HorizontalAlignment="Left" VerticalAlignment="Top"
+            WindowStartupLocation="CenterScreen"  
+            
+            WindowStyle="None" 
+            AllowsTransparency="True" 
+      
+            Width="1350">
+    <Grid  HorizontalAlignment="Stretch" Margin="0"  VerticalAlignment="Stretch" Grid.IsSharedSizeScope="True" MouseDown="window_MouseDown" MouseLeftButtonDown="window_MouseDoubleClick" >
+
+        
+        <Grid x:Name="CameraGrid"  MaxWidth="1920" MaxHeight="1080"  >
+            <Canvas Name="DefaultCanvas" >
+                <Label Content="Kinect Disconnected" FontSize="35" Foreground="Black"  IsEnabled="True" RenderTransformOrigin="2.084,6.383" Canvas.Left="481" Canvas.Top="286"></Label>
+            </Canvas>
+            <Image x:Name="CameraImage" MaxWidth="1920" MaxHeight="1080"  />
+            <Canvas x:Name="Canvas_Shore"  ClipToBounds="true"/>
+        </Grid>
+
+        <!--<Grid Height="80px" VerticalAlignment="Top" Background="#33000000" >
+            <StackPanel HorizontalAlignment="Left" Margin="30,10,0,10" Orientation="Horizontal" Width="796" >
+                <TextBlock Text="ShoreModule" VerticalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="0,0,0,0" Foreground="White" />
+
+            </StackPanel>
+        </Grid>-->
+    </Grid>
+</Window>

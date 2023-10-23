@@ -1,0 +1,17 @@
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\KinectView.csprojAssemblyReference.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\MainWindow.g.cs
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View_MarkupCompile.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View_MarkupCompile.lref
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View.exe.config
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\bin\Debug\net462\Sense.Vision.KinectONEServer.View.exe.config
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\bin\Debug\net462\Sense.Vision.KinectONEServer.View.exe
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\bin\Debug\net462\Sense.Vision.KinectONEServer.View.pdb
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\App.g.cs
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\MainWindow.baml
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View.g.resources
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\KinectView.AssemblyInfoInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\KinectView.AssemblyInfo.cs
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\KinectView.csproj.CoreCompileInputs.cache
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\KinectView.csproj.CopyComplete
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View.exe
+F:\Git_repo\FACETeamProject\NewArchitecture\SENSE\SENSE_VISION\KinectServer\KinectView\obj\Debug\net462\Sense.Vision.KinectONEServer.View.pdb

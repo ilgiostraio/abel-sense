@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DsNbo5pBbaV7De5v7OpayCmgR5NPwocfyL/Mpl+slFNGjwf46paNwVBP0RW1GLVdmaKJ+sR8EfWiOK40V6n95Q==",
+  "success": true,
+  "projectFilePath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_LIB\\KinectONE\\Sense.Lib.KinectONE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roberto\\.nuget\\packages\\microsoft.kinect\\2.0.1410.19000\\microsoft.kinect.2.0.1410.19000.nupkg.sha512",
+    "C:\\Users\\Roberto\\.nuget\\packages\\microsoft.kinect.face\\2.0.1410.19000\\microsoft.kinect.face.2.0.1410.19000.nupkg.sha512",
+    "C:\\Users\\Roberto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

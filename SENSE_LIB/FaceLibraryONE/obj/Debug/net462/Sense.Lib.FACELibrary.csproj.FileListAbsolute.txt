@@ -1,0 +1,11 @@
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\bin\Debug\net462\Sense.Lib.FACELibrary.dll
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\bin\Debug\net462\Sense.Lib.FACELibrary.pdb
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.AssemblyInfoInputs.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.AssemblyInfo.cs
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.csproj.CoreCompileInputs.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.dll
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.pdb
+E:\GIT_Repository\Abel\SENSE\bin\Debug\net462\Sense.Lib.FACELibrary.dll
+E:\GIT_Repository\Abel\SENSE\bin\Debug\net462\Sense.Lib.FACELibrary.pdb
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.csproj.AssemblyReference.cache
+E:\GIT_Repository\Abel\SENSE\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.GeneratedMSBuildEditorConfig.editorconfig

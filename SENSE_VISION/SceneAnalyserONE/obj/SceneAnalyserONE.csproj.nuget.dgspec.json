@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SceneAnalyserONE\\SceneAnalyserONE.csproj": {}
+  },
+  "projects": {
+    "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SceneAnalyserONE\\SceneAnalyserONE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SceneAnalyserONE\\SceneAnalyserONE.csproj",
+        "projectName": "Sense.Vision.SceneAnalyserONE",
+        "projectPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SceneAnalyserONE\\SceneAnalyserONE.csproj",
+        "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SceneAnalyserONE\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Microsoft.Kinect": {
+              "target": "Package",
+              "version": "[2.0.1410.19000, )"
+            },
+            "Microsoft.Kinect.Face": {
+              "target": "Package",
+              "version": "[2.0.1410.19000, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

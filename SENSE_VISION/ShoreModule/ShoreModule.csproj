@@ -1,0 +1,274 @@
+﻿<!--<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E671D04-0B24-43C6-B647-25824F4F5C1F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShoreModule</RootNamespace>
+    <AssemblyName>ShoreModule</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <HintPath>..\..\SceneAnalyserONE\packages\Accord.3.8.0\lib\net462\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Video, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <HintPath>..\..\SceneAnalyserONE\packages\Accord.Video.3.8.0\lib\net462\Accord.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Video.Kinect, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <HintPath>..\..\SceneAnalyserONE\packages\Accord.Video.Kinect.3.8.0\lib\net462\Accord.Video.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="ComUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\ComUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Kinect, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\SceneAnalyserONE\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="Uml.Robotics.Ros, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\ROS\Uml.Robotics.Ros.dll</HintPath>
+    </Reference>
+    <Reference Include="Uml.Robotics.Ros.MessageBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\ROS\Uml.Robotics.Ros.MessageBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Uml.Robotics.XmlRpc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\ROS\Uml.Robotics.XmlRpc.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="YarpCS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\YarpCS.dll</HintPath>
+    </Reference>
+    <Reference Include="YarpManagerCS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Debug\YarpManagerCS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shore.Designer.cs">
+      <DependentUpon>shore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LimitedConcurrencyLevelTaskScheduler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShoreNet.cs" />
+    <Compile Include="ViewShore.xaml.cs">
+      <DependentUpon>ViewShore.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="shore.resx">
+      <DependentUpon>shore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\FaceSetupData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ShoreLib4.NET.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Include="ViewShore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\..\SceneAnalyserONE\packages\Accord.3.8.0\build\Accord.targets" Condition="Exists('..\..\SceneAnalyserONE\packages\Accord.3.8.0\build\Accord.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\SceneAnalyserONE\packages\Accord.3.8.0\build\Accord.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\SceneAnalyserONE\packages\Accord.3.8.0\build\Accord.targets'))" />
+    <Error Condition="!Exists('..\..\SceneAnalyserONE\packages\Accord.Video.Kinect.3.8.0\build\Accord.Video.Kinect.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\SceneAnalyserONE\packages\Accord.Video.Kinect.3.8.0\build\Accord.Video.Kinect.targets'))" />
+  </Target>
+  <Import Project="..\..\SceneAnalyserONE\packages\Accord.Video.Kinect.3.8.0\build\Accord.Video.Kinect.targets" Condition="Exists('..\..\SceneAnalyserONE\packages\Accord.Video.Kinect.3.8.0\build\Accord.Video.Kinect.targets')" />
+  --><!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  --><!--
+</Project>-->
+
+
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net462</TargetFrameworks>
+		<RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+		<OutputType>WinExe</OutputType>
+		<NoWarn>168;219;1701;1702;1705</NoWarn>
+		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+		<AssemblyName>Sense.Vision.ShoreModule</AssemblyName>
+		<RootNamespace>Sense.Vision.ShoreModule</RootNamespace>
+		<StartupObject>Sense.Vision.ShoreModule.Program</StartupObject>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+		<OutputPath>..\..\..\SENSE\bin\Debug</OutputPath>
+		<Prefer32Bit>true</Prefer32Bit>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net462|AnyCPU'">
+		<OutputPath>..\..\..\SENSE\bin\Release</OutputPath>
+	</PropertyGroup>
+	
+	
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\FaceSetupData.txt" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Kinect" Version="2.0.1410.19000" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="Uml.Robotics.Ros" Version="1.0.1" />
+		<PackageReference Include="Uml.Robotics.Ros.MessageBase" Version="1.0.1" />
+		<PackageReference Include="Uml.Robotics.Ros.Messages" Version="1.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+
+		<Reference Include="ComUtils">
+			<HintPath>..\..\ComUtils.dll</HintPath>
+		</Reference>
+
+		<Reference Include="PresentationCore" />
+
+		<Reference Include="Sense.Lib.FACELibrary">
+		  <HintPath>..\..\SENSE_LIB\FaceLibraryONE\obj\Debug\net462\Sense.Lib.FACELibrary.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Xaml" />
+
+		<Reference Include="PresentationFramework" />
+		<Reference Include="Sense.Lib.KinectONE">
+			<HintPath>..\lib\Sense.Lib.KinectONE.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Configuration" />
+
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Deployment" />
+		<Reference Include="System.Drawing" />
+		<Reference Include="System.Windows.Forms" />
+		<Reference Include="System.Xml" />
+		<Reference Include="WindowsBase" />
+		<Reference Include="YarpManagerCS">
+			<HintPath>..\..\YarpManagerCS.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="App.config">
+			<SubType>Designer</SubType>
+		</None>
+	</ItemGroup>
+	<!--<ItemGroup>
+		<Compile Include="src\shore.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Include="shore.Designer.cs">
+			<DependentUpon>shore.cs</DependentUpon>
+		</Compile>
+		<Compile Include="src\LimitedConcurrencyLevelTaskScheduler.cs" />
+		<Compile Include="src\Program.cs" />
+
+		<Compile Include="src\ShoreNet.cs" />
+		<Compile Include="src\ViewShore.xaml.cs">
+			<DependentUpon>src\ViewShore.xaml</DependentUpon>
+		</Compile>
+	</ItemGroup>-->
+	<ItemGroup>
+		<Page Include="src\ViewShore.xaml">
+			<Generator>MSBuild:Compile</Generator>
+			<SubType>Designer</SubType>
+		</Page>
+	</ItemGroup>
+	
+
+		<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<Exec Command="xcopy &quot;$(SolutionDir)..\yarp.dll&quot; &quot;$(OutDir)&quot; /Y /D&#xD;&#xA;xcopy  &quot;$(ProjectDir)lib&quot; &quot;$(OutDir)&quot; /D /Y" />
+	</Target>
+
+
+
+
+</Project>

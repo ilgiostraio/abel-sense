@@ -1,0 +1,259 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.Kinect/2.0.1410.19000": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Kinect.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Kinect.dll": {}
+        }
+      },
+      "Microsoft.Kinect.Face/2.0.1410.19000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Kinect": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Kinect.Face.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Kinect.Face.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win10-x64": {
+      "Microsoft.Kinect/2.0.1410.19000": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Kinect.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Kinect.dll": {}
+        }
+      },
+      "Microsoft.Kinect.Face/2.0.1410.19000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Kinect": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Kinect.Face.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Kinect.Face.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Kinect/2.0.1410.19000": {
+      "sha512": "DrmYR/q4Ne49LFluomcxwuiCDq6Gw2xgQqLXYUGCRVkzF/fEaNFy+OfdH6lSWTX32VFbuDueDph9E865bvq4oQ==",
+      "type": "package",
+      "path": "microsoft.kinect/2.0.1410.19000",
+      "files": [
+        ".nupkg.metadata",
+        "Microsoft.Kinect.2.0.1410.19000.nupkg.sha512",
+        "Microsoft.Kinect.nuspec",
+        "lib/net45/Microsoft.Kinect.dll",
+        "lib/net45/Microsoft.Kinect.xml"
+      ]
+    },
+    "Microsoft.Kinect.Face/2.0.1410.19000": {
+      "sha512": "5xIwWHjVMV5iFm1m7d5p4+0sibPsjC3tEGHE5c05i35aXNA7LlVpu8MlB7xvKxAkOnb4CeBlAMEY9gLnkQm55A==",
+      "type": "package",
+      "path": "microsoft.kinect.face/2.0.1410.19000",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NuiDatabase/Expression/ExpressionRandomForest.model",
+        "content/NuiDatabase/Expression/EyeLeftRandomForest.model",
+        "content/NuiDatabase/Expression/EyeRightRandomForest.model",
+        "content/NuiDatabase/Expression/FacialHairIRRandomForest.model",
+        "content/NuiDatabase/Expression/FacialHairRandomForest.model",
+        "content/NuiDatabase/Expression/Feature.config",
+        "content/NuiDatabase/Expression/GlassesIRRandomForest.model",
+        "content/NuiDatabase/Expression/GlassesRandomForest.model",
+        "content/NuiDatabase/Expression/LookingAwayRandomForest.model",
+        "content/NuiDatabase/Expression/MouthMovedRandomForest.model",
+        "content/NuiDatabase/Expression/MouthOpenRandomForest.model",
+        "content/NuiDatabase/Expression/NuiExpressionModelManifest.txt",
+        "content/NuiDatabase/FaceAlignment.bin",
+        "content/NuiDatabase/FaceAlignmentColor.bin",
+        "content/NuiDatabase/FaceAlignmentColor27.bin",
+        "content/NuiDatabase/FaceDetector.bin",
+        "content/NuiDatabase/FaceOrientation.bin",
+        "content/NuiDatabase/FaceTrackingColor27.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/3DModel.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/3DModel_globalPCA.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/AAMModelData_F.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/AAMModelData_HLP.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/AAMModelData_HRP.bin",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/Map2D3D_F.txt",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/Map2D3D_HLP.txt",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/Map2D3D_HRP.txt",
+        "content/NuiDatabase/HDFaceTracker/AAMModel/PCAMaskBias.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/Front.p.txt",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/front.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/front_nose.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/left.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/left.p.txt",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/left_nose.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/right.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/right.p.txt",
+        "content/NuiDatabase/HDFaceTracker/EvalModel/right_nose.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/EyeState/EyeClose.pra",
+        "content/NuiDatabase/HDFaceTracker/EyeState/EyeClose.wgh",
+        "content/NuiDatabase/HDFaceTracker/EyeState/LeftCloseRightOpen44Flip.pra",
+        "content/NuiDatabase/HDFaceTracker/EyeState/LeftCloseRightOpen44Flip.wgh",
+        "content/NuiDatabase/HDFaceTracker/EyeState/LeftOpenRightClose44Flip.pra",
+        "content/NuiDatabase/HDFaceTracker/EyeState/LeftOpenRightClose44Flip.wgh",
+        "content/NuiDatabase/HDFaceTracker/MouthModel/MeanShapes.txt",
+        "content/NuiDatabase/HDFaceTracker/MouthModel/close.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/MouthModel/close.p.txt",
+        "content/NuiDatabase/HDFaceTracker/MouthModel/lopen.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/MouthModel/lopen.p.txt",
+        "content/NuiDatabase/HDFaceTracker/SkintoneModel/skintone_appearance_classifier.txt",
+        "content/NuiDatabase/HDFaceTracker/SkintoneModel/skintone_shape_classifier.txt",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/front.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/front.p.txt",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/left.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/left.p.txt",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/right.mod.bin",
+        "content/NuiDatabase/HDFaceTracker/ViewModel/right.p.txt",
+        "content/NuiDatabase/HDFaceTracker/WholeHeadModel/FullHeadMaskVertexCorrespondence.txt",
+        "content/NuiDatabase/HDFaceTracker/WholeHeadModel/fullMeanHead60_tri.ply",
+        "lib/net45/Microsoft.Kinect.Face.dll",
+        "lib/net45/Microsoft.Kinect.Face.xml",
+        "microsoft.kinect.face.2.0.1410.19000.nupkg.sha512",
+        "microsoft.kinect.face.nuspec",
+        "tools/net45/Install.ps1"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "Newtonsoft.Json.12.0.3.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.Kinect >= 2.0.1410.19000",
+      "Microsoft.Kinect.Face >= 2.0.1410.19000",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Roberto\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.2.0",
+    "restore": {
+      "projectUniqueName": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_LIB\\KinectONE\\Sense.Lib.KinectONE.csproj",
+      "projectName": "Sense.Lib.KinectONE",
+      "projectPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_LIB\\KinectONE\\Sense.Lib.KinectONE.csproj",
+      "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
+      "outputPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_LIB\\KinectONE\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "targetAlias": "net462",
+        "dependencies": {
+          "Microsoft.Kinect": {
+            "target": "Package",
+            "version": "[2.0.1410.19000, )"
+          },
+          "Microsoft.Kinect.Face": {
+            "target": "Package",
+            "version": "[2.0.1410.19000, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-x64": {
+        "#import": []
+      }
+    }
+  }
+}

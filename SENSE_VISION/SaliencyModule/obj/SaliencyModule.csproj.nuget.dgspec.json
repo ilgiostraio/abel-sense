@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SaliencyModule\\SaliencyModule.csproj": {}
+  },
+  "projects": {
+    "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SaliencyModule\\SaliencyModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SaliencyModule\\SaliencyModule.csproj",
+        "projectName": "Sense.Vision.SaliencyModule",
+        "projectPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SaliencyModule\\SaliencyModule.csproj",
+        "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT_Repository\\Abel\\SENSE\\SENSE_VISION\\SaliencyModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.Kinect": {
+              "target": "Package",
+              "version": "[2.0.1410.19000, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Uml.Robotics.Ros": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Uml.Robotics.Ros.MessageBase": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Uml.Robotics.Ros.Messages": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
